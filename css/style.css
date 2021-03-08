@@ -13,12 +13,16 @@
   font-size: 14px;
   font-weight: 600;
   padding:  0 1rem;
+  font-weight: bold;
 }
 .nav-link{
     color: #fff;
 }
 .nav-link:hover{
     color: rgba(255,255,255,.75);
+}
+body{
+  color: #000;
 }
 
 .defauld{
@@ -45,6 +49,7 @@ i .fas, .fa-bars{
   }
   .caja-lateral{
     border: none;
+    padding-top: 25px !important;
   }
   .btn{
       margin-bottom: 10px;
@@ -54,17 +59,27 @@ i .fas, .fa-bars{
       background-color: #021967;
       border-color: #021967;
       border-radius: 1.25rem;  
+      font-weight: bold;
   }
   .btn-pucmm-warning{
     color: #000;
     background-color: #f4d062;
     border-color: #f4d062;
     border-radius: 1.25rem;
+    font-weight: bold;
   }
   .container-pucmm{
     padding-top: 15px;
     padding-bottom: 35px;
   }
+
+.img-aviso{
+  padding: 20px 0px;
+}
+.intrucciones, .enlace{
+  margin-bottom: 0px !important;
+}
+
   .footer-wrapper{
     background-color: #e9ecef;
   }
