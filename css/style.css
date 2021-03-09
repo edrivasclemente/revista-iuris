@@ -10,10 +10,12 @@
 }
 .menu-superior {
   text-align: end;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 12px;
   padding:  0 1rem;
   font-weight: bold;
+}
+.menu-superior img{
+  width: 25px;
 }
 .nav-link{
     color: #fff;
@@ -34,6 +36,9 @@ i .fas, .fa-bars{
 }
 .logo-brand{
     max-width: 300px;
+}
+.navbar-expand-lg{
+  margin-top: -45px !important;
 }
 
 .form-control{
