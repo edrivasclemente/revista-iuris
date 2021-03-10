@@ -48,7 +48,7 @@
 body{
   color: #000;
 }
-p{
+p, ul, ol{
   text-align: justify;
 }
 li{
