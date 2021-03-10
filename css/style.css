@@ -33,7 +33,10 @@
 .nav-link:hover,.dropdown-item:hover{
     color: rgba(250,216,6,.98);
 }
-
+.nav-link{
+  text-transform: uppercase;
+  font-weight: bold;
+}
 body{
   color: #000;
 }
