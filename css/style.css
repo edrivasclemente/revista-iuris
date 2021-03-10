@@ -8,9 +8,6 @@
     background-position: center center;
     position: relative;
 }
-a:active {
-  color: #fad806;
-}
 .menu-superior {
   text-align: end;
   font-size: 12px;
@@ -20,12 +17,23 @@ a:active {
 .menu-superior img{
   width: 25px;
 }
-.nav-link{
+.nav-link, .dropdown-item{
     color: #fff;
 }
-.nav-link:hover{
-    color: rgba(255,255,255,.75);
+.dropdown-menu{
+  background-color: #233d8a;
 }
+
+.dropdown-item:hover {
+  background-color: transparent;
+}
+.nav-item:active {
+  color: rgba(250,216,6,.98);
+}
+.nav-link:hover,.dropdown-item:hover{
+    color: rgba(250,216,6,.98);
+}
+
 body{
   color: #000;
 }
@@ -73,8 +81,8 @@ i .fas, .fa-bars{
   }
   .btn-pucmm-warning{
     color: #000;
-    background-color: #f4d062;
-    border-color: #f4d062;
+    background-color: rgba(250,216,6,.98);
+    border-color: rgba(250,216,6,.98);
     border-radius: 1.25rem;
     font-weight: bold;
   }
