@@ -52,6 +52,7 @@ p, ul, ol{
   text-align: justify;
 }
 li{
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .defauld{
