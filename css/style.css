@@ -20,6 +20,9 @@
 .menu-superior .nav-link{
   font-size: 10px;
 }
+.lead{
+  font-size: 1.2rem !important;
+}
 
 .nav-link, .dropdown-item{
     color: #fff;
