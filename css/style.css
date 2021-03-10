@@ -8,6 +8,9 @@
     background-position: center center;
     position: relative;
 }
+a:active {
+  color: #fad806;
+}
 .menu-superior {
   text-align: end;
   font-size: 12px;
@@ -26,7 +29,9 @@
 body{
   color: #000;
 }
-
+li{
+  margin-bottom: 1rem;
+}
 .defauld{
     color: #001970;
     font-weight: 700;
@@ -89,7 +94,7 @@ i .fas, .fa-bars{
     background-color: #e9ecef;
   }
   .padding-cajas {
-    padding: 80px 16px!important;
+    padding: 40px 16px!important;
   }
   .col-footer {
     margin-bottom: 0px;
