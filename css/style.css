@@ -48,6 +48,9 @@
 body{
   color: #000;
 }
+p{
+  text-align: justify;
+}
 li{
   margin-bottom: 1rem;
 }
